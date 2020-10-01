@@ -1,0 +1,118 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif ;
+
+  line-height: #999;
+}
+.boy1,.boy2,.boy3{
+  position: relative;
+  opacity: 0.8;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+.boy1{
+  background-image: url(boy1.jpg);
+    background-size: 1550px 900px;
+  width: 100%;
+  height: 100%;
+}
+.boy2{
+  background-image: url(boy2.jpg);
+
+    background-size: 1540px 1300px;
+  width: 100%;
+  height: 100%;
+}
+
+.boy3{
+  background-image: url(boy3.jpg);
+
+    background-size: 1540px 1000px;
+  width: 100%;
+  height: 100%;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: capitalize;
+  font-style: whitelist;
+}
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+. section section-light{
+  background-color: #f4f4f4;
+  color:#666;
+}
+.section-dark{
+  background-color: #282e35;
+  color:#ddd;
+}
+.text .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.6
+}
+.hho{color: #fff}
+.back{
+  position: absolute;
+  bottom: : 50%;
+  margin-left: 570px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  letter-spacing: 4px;
+background-color: grey;
+opacity: 0.4;
+}
+.logo{
+  width: 700px;
+  height:211px;
+  background-image: url('logo.png');
+  background-size: 700px 600px;
+
+  margin-left: 10px;
+
+  font-size:20PX;
+  padding-top: 70px;
+  padding-left: 60px;
+
+  background-repeat: no-repeat;
+}
+.border:hover{
+  background: white;
+  color: black;
+  transition: .8s;
+}
+.back:hover{
+  background-color: black;
+  color: white;
+}
+.inst{
+  width:30px;
+  height: 30px;
+    float: right;
+    margin: 20px;
+}
+.inst img{
+  width:30px;
+  height: 30px;
+opacity: .4;
+}
